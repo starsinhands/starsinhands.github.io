@@ -73,7 +73,7 @@
         <div id="header-row">
             <div id="logo">
                 <a href="/">
-                    <img src="/images/logo.png" alt="logo">
+                    <img src="/images/starsre.png" alt="logo">
                 </a>
             </div>
             <div class="header-info">
@@ -156,7 +156,7 @@
         <p>原始链接： <a class="post-url" href="/2024/09/05/hello-world/" title="Hello World">http://example.com/2024/09/05/hello-world/</a></p>
         <footer>
             <a href="http://example.com">
-                <img src="/images/logo.png" alt="starsinhands">
+                <img src="/images/starsre.png" alt="starsinhands">
                 starsinhands
             </a>
         </footer>
@@ -210,7 +210,7 @@
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2024/09/05/hello-world/&title=《Hello World》 — starsinhands' blog&pic=http://example.comimages/logo.png" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2024/09/05/hello-world/&title=《Hello World》 — starsinhands' blog&pic=http://example.comimages/starsre.png" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -342,7 +342,7 @@
             
         </div>
         <div id="sidebar-menu-box-tags">
-            
+            <a href="/tags/test-hexo/" style="font-size: 10px;">test hexo</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -375,7 +375,7 @@
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            
+            <a href="/tags/test-hexo/" style="font-size: 10px;">test hexo</a>
         </div>
     </div>
 </div>
@@ -438,5 +438,20 @@
   </script>
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
